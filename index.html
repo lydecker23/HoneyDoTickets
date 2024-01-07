@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Ticketing System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Home Ticketing System</h1>
+  </header>
+  
+  <main>
+    <form id="ticketForm">
+      <label for="issue">Issue:</label>
+      <input type="text" id="issue" name="issue" required><br>
+      
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" required></textarea><br>
+      
+      <button type="submit">Submit Ticket</button>
+    </form>
+    
+    <div id="tickets">
+      <!-- Ticket list will appear here -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
